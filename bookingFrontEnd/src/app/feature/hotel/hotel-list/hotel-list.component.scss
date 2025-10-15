@@ -1,0 +1,55 @@
+$main-color: #8B3EEA;
+$white-color: #ffffff;
+$black-color: #2B2540;
+$black-color-opacity: #2b2540c4;
+$paragraph-color: #818090;
+$bg-color: #F3F6FD;
+$transition: .4s all ease-in-out;
+
+
+
+.review_star {
+    padding-top: 10px;
+}.review_star .form-check {
+    margin-top: 15px;
+    margin-bottom: 0;
+}.form-check-label {
+    width: 100%;
+}
+.color_theme {
+    color: $main-color;
+}
+
+.form-check-label {
+    width: 100%;
+}.review_star {
+    padding-top: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .average-rating {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .average-rating span {
+    margin-left: 8px;
+    font-weight: bold;
+    color: $main-color;
+  }
+  .i {
+    color: $main-color;
+  }
