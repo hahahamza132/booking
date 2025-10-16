@@ -9,14 +9,14 @@ import { Pagination } from '../../../shared/models/pagination';
   styleUrls: ['./hotel-list.component.scss'],
 })
 export class HotelListComponent implements OnInit {
-  
-  hotels: Hotel[];
+
+  hotels: Hotel[] = [];
   errorMessage: string[] = [];
   pageSize = 6;
   totalPages = 0;
   totalElements = 0;
   pageNumber = 1;
-  reviews: Review[];
+  reviews: Review[] = [];
   averageRating = 0;
 
   constructor(private hotelService: HotelService) {

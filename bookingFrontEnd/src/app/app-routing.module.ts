@@ -30,7 +30,7 @@ import { BookingConfirmedComponent } from './feature/flights/booking-confirmed/b
 
 
 const routes: Routes = [
-  {path:"",redirectTo:"'home",pathMatch: "full"},
+  {path:"",redirectTo:"home",pathMatch: "full"},
   {path:"test",component:TestComponent},
   {path:"home",component: HomeComponent,data:{breadcrumd:"Home"}},
   {path:"hotels",component:HotelListComponent},

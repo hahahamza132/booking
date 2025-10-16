@@ -395,7 +395,7 @@
                   </div>
 
                   <div class="text-end pt-0 col-12">
-                    <a class="btn btn-primary mb-n4" href="/flights/list"
+                    <a class="btn btn-primary mb-n4" routerLink="/flights"
                       >Find ticket
                       <svg
                         stroke="currentColor"
@@ -753,7 +753,7 @@
                     </div>
                   </div>
                   <div class="text-end pt-0 col-12">
-                    <a class="btn btn-primary mb-n4" href="/flights/list"
+                    <a class="btn btn-primary mb-n4" routerLink="/flights"
                       >Find ticket
                       <svg
                         stroke="currentColor"
@@ -786,7 +786,7 @@
         <div class="col-12">
           <div class="d-sm-flex justify-content-sm-between align-items-center">
             <div class="mb-3 mb-sm-0">
-              <h1 class="fs-3">{{ flights.length }} Flight Available</h1>
+              <h1 class="fs-3">{{ flights?.length || 0 }} Flight Available</h1>
               <ul class="nav nav-divider h6 mb-0">
                 <li class="nav-item">25 Jan</li>
                 <li class="nav-item">1 Stop</li>
