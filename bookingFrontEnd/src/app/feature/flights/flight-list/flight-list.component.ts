@@ -9,8 +9,8 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./flight-list.component.scss']
 })
 export class FlightListComponent implements OnInit{
-  
-  flights: any[]
+
+  flights: any[] = []
   pageNumber = 1;
   pageSize = 6;
   totalPages = 0;

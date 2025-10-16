@@ -13,7 +13,7 @@
         <div class="row my-2 my-xl-5 row">
           <div class="mx-auto col-md-8">
             <h1 class="text-center text-white">
-              {{ hotels.length }} Found Hotels
+              {{ hotels?.length || 0 }} Found Hotels
             </h1>
           </div>
         </div>
@@ -505,7 +505,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link rounded-start rounded-0 mb-0 active"
-                  href="/hotels/list"
+                  routerLink="/hotels"
                   ><svg
                     stroke="currentColor"
                     fill="currentColor"
@@ -525,7 +525,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link rounded-end rounded-0 mb-0"
-                  href="/hotels/grid"
+                  routerLink="/hotels"
                   ><svg
                     stroke="currentColor"
                     fill="currentColor"
@@ -649,7 +649,7 @@
                     role="button"
                     aria-expanded="false"
                     aria-controls="hotelType"
-                    href="/hotels/list"
+                    routerLink="/hotels"
                     >See <span class="ms-1">more</span
                     ><svg
                       stroke="currentColor"
@@ -1018,7 +1018,7 @@
                     role="button"
                     aria-expanded="false"
                     aria-controls="amenitiesCollapes"
-                    href="/hotels/list"
+                    routerLink="/hotels"
                     >See <span class="ms-1">more</span
                     ><svg
                       stroke="currentColor"
